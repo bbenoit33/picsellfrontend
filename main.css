@@ -146,4 +146,35 @@ body{
 
 #steps h2{
 	text-align: center;
+	width: 100%;
+	clear: both;
+	font-size: 2.0em;
+	margin-top: 30px;
+}
+
+#steps_wrapper{
+	padding: 20px 17.5%;
+	padding-left: 25%;
+}
+
+#steps ul{
+	list-style-image: url('images/checkmark_bullet.png');
+	font-size: 1.2em;
+	margin: 0 0 0 0;
+	overflow: hidden;
+}
+
+#steps ul li{
+	width: 50%;
+	float: left;
+}
+
+#steps ul li h3{
+	margin-left: 10px;
+}
+
+#steps ul li p{
+	width: 80%;
+	margin-left: 10px;
+	color: #9097aa;
 }
