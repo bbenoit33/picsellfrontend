@@ -1,0 +1,149 @@
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url('fonts/ProximaNova-Regular.otf');
+}
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src: url('fonts/ProximaNova-Semibold.otf');
+}
+
+html{
+	background: #fff;
+	font-size: 16px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: 'ProximaNova-Regular', sans-serif;
+}
+
+header{
+	color: #8f97a2;
+	height: auto;
+	box-sizing: border-box;
+}
+header h1{
+	float: left;
+	margin-left: 130px;
+	margin-bottom: 0;
+}
+header nav#uppernav ul{
+	list-style: none;
+	top: 0;
+	right: 130px;
+	position: absolute;
+	margin-top: 0;
+}
+header nav#uppernav ul li{
+	background: #5dade2;
+	color: #fff;
+	padding: 10px 20px;
+	float: left;
+	margin: 0 0 0 20px;
+	font-size: 1.2em;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;	
+}
+header nav#lowernav{
+	overflow: hidden;
+}
+
+header nav#lowernav ul{
+	list-style: none;
+	margin: 70px 120px 0 0;
+}
+header nav#lowernav ul li{
+	float: right;
+	margin-left: 20px;
+	font-size: 1.00em;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+header nav#lowernav ul li.active{
+	color: #202427;
+	border-bottom: 3px solid #41c6ef;
+}
+
+header a{
+	text-decoration: none;
+	color: inherit;
+}
+
+body{
+	margin: 0 0 0 0;
+}
+
+#banner{
+	position: relative;
+	height: 525px;
+	background-color: #dddddd;
+	background-image: url('images/iphone_5_box.jpg');
+	background-size: 100% 100%;
+}
+#banner h1{
+	width: 100%;
+	margin-top: 60px;
+	position: absolute;
+	font-size: 3.5em;
+	text-align: center;
+	color: #fff;
+	font-family: 'ProximaNova-Semibold', sans-serif;
+}
+
+#bannernav{
+	position: absolute;
+	top: 150px;
+	text-align: center;
+	box-sizing: border-box;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+#bannernav ul{
+	list-style: none;
+	color: #fff;
+	position: absolute;
+}
+
+#bannernav ul li{
+	float: left;
+	margin-left: 20px;
+	font-family: 'ProximaNova-Semibold', sans-serif;
+	font-size: 1.33em;
+}
+
+#bannernav ul li span{
+	background: #68cae3;
+	padding:15px 25px;
+	box-sizing: border-box;
+	width: 181px;
+	height: 60px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-left: 60px;
+}
+
+#bannernav ul li img{
+	margin-top: -20px
+}
+
+#banner #iphone_on_side{
+	position: absolute;
+	bottom: 5px;
+	right: 180px;
+}
+
+#steps h1{
+	text-align: center;
+	margin-top: 100px;
+}
+
+#steps h2{
+	text-align: center;
+}
