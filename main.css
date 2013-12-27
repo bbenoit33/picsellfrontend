@@ -371,7 +371,7 @@ li #image-placeholder{
 }
 
 #customers ul li.first{
-	margin-left: 0;
+	margin-left: 20px;
 }
 
 #customers ul li .quote_wrapper{
@@ -404,13 +404,7 @@ li #image-placeholder{
 	margin-top: 10px;
 }
 
-#notifyme, footer{
-	padding: 0 50px;
-}
-
-
 #notifyme{
-	width: 100%;
 	background: #223442;
 	position: relative;
 	overflow: hidden;
@@ -420,7 +414,7 @@ li #image-placeholder{
 	color: #fff;
 	padding: 50px 0px;
 	font-size: 2.5em;
-	margin: 0 0 0 0;
+	margin: 0 0 0 50px;
 	font-weight: 100;
 }
 
@@ -443,7 +437,7 @@ li #image-placeholder{
 	padding: 15px 35px;
 	position: absolute;
 	top: 50%;
-	right: 125px;
+	right: 80px;
 	margin-top: -25px;
 }
 
