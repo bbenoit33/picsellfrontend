@@ -63,7 +63,7 @@ header nav#lowernav ul li{
 	padding-right: 10px;
 	text-decoration: none;
 }
-header nav#lowernav ul li.active{
+header nav#lowernav ul li.current{
 	color: #202427;
 	border-bottom: 3px solid #41c6ef;
 }
