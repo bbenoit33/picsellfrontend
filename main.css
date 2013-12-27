@@ -370,6 +370,10 @@ li #image-placeholder{
 	text-align: center;
 }
 
+#customers ul li.first{
+	margin-left: 0;
+}
+
 #customers ul li .quote_wrapper{
 	background: #edeef0;
 	color: #959cac;
@@ -400,21 +404,69 @@ li #image-placeholder{
 	margin-top: 10px;
 }
 
+#notifyme, footer{
+	padding: 0 50px;
+}
+
 
 #notifyme{
 	width: 100%;
 	background: #223442;
+	position: relative;
+	overflow: hidden;
 }
 
 #notifyme h1{
 	color: #fff;
-	padding: 50px 100px;
+	padding: 50px 0px;
 	font-size: 2.5em;
 	margin: 0 0 0 0;
 	font-weight: 100;
 }
 
+#notifyme a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#notifyme h2{
+	background: #2fc6a5;
+	height:50px;
+	width: 180px;
+	box-sizing: border-box;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow:    1px 5px 0px 1px #21a888;
+	-webkit-box-shadow: 1px 5px 0px 1px #21a888;
+	box-shadow:         1px 5px 0px 1px #21a888;	
+	border-radius: 5px;
+	padding: 15px 35px;
+	position: absolute;
+	top: 50%;
+	right: 125px;
+	margin-top: -25px;
+}
+
 footer{
-	height: 120px;
+	color: #606c7a;
 	background: #152837;
+	overflow: hidden;
+}
+
+footer ul{
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 50px 35px;
+	float: left;
+}
+
+footer ul li{
+	float: left;
+	margin-left: 20px;
+}
+
+footer span{
+	padding: 50px 0;
+	float: right;
+	margin-right: 75px;
 }
