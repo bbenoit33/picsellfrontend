@@ -81,8 +81,14 @@ body{
 	position: relative;
 	height: 525px;
 	background-color: #dddddd;
-	background-image: url('images/iphone_5_box.jpg');
+	background-image: url('images/iphone_5_box_blurred.png');
 	background-size: 100% 100%;
+	filter: blur(5px);
+	// Browser Specific
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
 }
 #banner h1{
 	width: 100%;
@@ -182,12 +188,80 @@ body{
 
 #items{
 	background: #f5f7f6;
-	height: 400px;
 	position: relative;
+	overflow: hidden;
+	padding-bottom: 40px;
 }
 
 #items .arrow-down{
 	border-top: 50px solid #fff;
+}
+
+#items h2{
+	font-size: 2.0em;
+	clear: both;
+	text-align: center;
+	margin-top: 80px;
+	padding: 20px 0;
+}
+
+#items #recentlyadded, #items #justsold{
+	list-style: none;
+	width: 100%;
+}
+
+#items #recentlyadded li, #items #justsold li{
+	float: left;
+	background: #fff;
+	color: #333;
+	text-align: center;
+	margin-left: 50px;
+	height: 320px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: left;
+
+}
+#items #recentlyadded li h3, #items #justsold li h3{
+	margin-left: 10px;
+	font-size: 1em;
+	font-family: 'ProximaNova-Semibold', sans-serif;
+}
+#items #recentlyadded li p, #items #justsold li p{
+	color: #9097aa;
+	margin-left: 10px;
+	font-size: 0.8em;
+}
+
+li.inactive{
+	display: none;
+}
+
+li.active img{
+	width: 320px;
+	height: 180px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;	
+}
+
+li #image-placeholder{
+	background: #cccccc;
+	color: #333;
+	width: 320px;
+	height: 180px;
+	text-align: center;
+	margin: -16px 0 0 0;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;	
 }
 
 #whyus{
