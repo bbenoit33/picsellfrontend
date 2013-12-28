@@ -104,8 +104,10 @@ body{
 	position: relative;
 	height: 525px;
 	background-color: #dddddd;
-	background-image: url('images/iphone_5_box_blurred.png');
-	background-size: 100% 100%;
+	background-image: url('images/stock_photo.jpg');
+	background-size: 100% auto;
+	background-position: 10% 80%;
+	background-repeat: no-repeat; 
 	filter: blur(5px);
 	// Browser Specific
 	-webkit-filter: blur(5px);
@@ -209,6 +211,21 @@ body{
 	color: #9097aa;
 }
 
+.circular_wrapper{
+	height: 10px;
+	width: 10px;
+	margin-left: 100px;
+	margin-top: 20px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #cccccc;
+}
+
+.circular_wrapper.current_page{
+	background: #2496dc;
+}
+
 #items{
 	background: #f5f7f6;
 	position: relative;
@@ -235,12 +252,26 @@ body{
 	overflow: hidden;
 }
 
-#items #recentlyadded li, #items #justsold li{
+#items .scroll_button{
+	margin-top: 125px;
+	cursor: pointer;
+}
+
+#items .left{
+	float: left;
+}
+
+#items .right{
+	float: right;
+	margin-right: 95px;
+}
+
+#items #recentlyadded li.item_feature, #items #justsold li.item_feature{
 	float: left;
 	background: #fff;
 	color: #333;
 	text-align: center;
-	margin-left: 62px;
+	margin-left: 35px;
 	height: 320px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -296,7 +327,7 @@ li #image-placeholder{
 	font-size: 1.5em;
 	margin: 50px 0 0 0;
 	padding: 15px auto;
-	margin-left: 550px;
+	margin-left: 545px;
 }
 
 #whyus{
@@ -353,10 +384,6 @@ li #image-placeholder{
 	width: 150px;
 	margin-left: 100px;
 	margin-top: 20px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	background: #cccccc;
 }
 
 #customers h1{

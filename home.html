@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+	<script src="app.js"></script>
+	<link rel="stylesheet" href="main.css" type="text/css" />
 <head>
 <meta charset="utf-8" />
 <title>PicSell Front End </title>
- 
-<link rel="stylesheet" href="main.css" type="text/css" />
  
 <!--[if IE]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -75,59 +77,66 @@
 		<div class="max_width_wrapper">
 			<h2> Recently Added </h2>
 			<ul id="recentlyadded">
-				<li class='inactive'>
+				<li class="scroll_button left"><img src="images/scroll_active.png"/></li>
+				<li class='inactive item_feature'>
 					<div id="image-placeholder"><p>342x191 placeholder</p></div>
 					<h3></h3>
 					<p></p>
 				</li>
-				<li class='active'>
+				<li class='active item_feature'>
 					<img src="images/Apple_airport_express.jpg" size="342x192"/>
 					<h3>Apple Airport Express</h3>
 					<p>Sold on picSell: $72</p>
 				</li>
-				<li class='active'>
+				<li class='active item_feature'>
 					<div id="image-placeholder"><p>342x191 placeholder</p></div>
 					<h3>ERGObaby Original Baby</h3>
 					<p>Sold on picSell: $85</p>
 				</li>
-				<li class='active'>
+				<li class='active item_feature'>
 					<img src="images/bolex.jpg" size="342x192"/>
 					<h3>Bolex Paillard H16 REX 3</h3>
 					<p>Sold on picSell: $1299</p>
 				</li>			
-				<li class='inactive'>
+				<li class='inactive item_feature'>
 					<div id="image-placeholder"><p>342x191 placeholder</p></div>
 					<h3></h3>
 					<p></p>
-				</li>			
+				</li>
+				<li class="scroll_button right"><img src="images/scroll_right_active.png"/></li>			
 			</ul>
+			<div id="pagination">
+				<div class="circular_wrapper current_page"></div>
+			</div>
 			<h2> <br>Just Sold </h2>
 			<ul id="justsold">
-				<li class='inactive'>
+				<li class="scroll_button left"><img src="images/scroll_active.png"/></li>
+				<li class='inactive item_feature'>
 					<div id="image-placeholder"><p>342x191 placeholder</p></div>
 					<h3></h3>
 					<p></p>
 				</li>
-				<li class='active'>
+				<li class='active item_feature'>
 					<img src="images/Apple_airport_express.jpg" size="342x192"/>
 					<h3>Apple Airport Express</h3>
 					<p>Sold on picSell: $72</p>
 				</li>
-				<li class='active'>
+				<li class='active item_feature'>
 					<div id="image-placeholder"><p>342x191 placeholder</p></div>
 					<h3>ERGObaby Original Baby</h3>
 					<p>Sold on picSell: $85</p>
 				</li>
-				<li class='active'>
+				<li class='active item_feature'>
 					<img src="images/bolex.jpg" size="342x192"/>
 					<h3>Bolex Paillard H16 REX 3</h3>
 					<p>Sold on picSell: $1299</p>
 				</li>			
-				<li class='inactive'>
+				<li class='inactive item_feature'>
 					<div id="image-placeholder"><p>342x191 placeholder</p></div>
 					<h3></h3>
 					<p></p>
-				</li>				
+				</li>	
+				<li class="scroll_button right"><img src="images/scroll_right_active.png"/></li>				
 			</ul>
 			<a href="#"><h2 class="green_button"> View All </h2></a>
 		</div>
