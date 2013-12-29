@@ -6,8 +6,13 @@
 	<link rel="stylesheet" href="main.css" type="text/css" />
 	<script>
 		//only scale view if view is a phone
-		if (screen.width <= 568){
-			$(head).append("<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />");
+		var scaler = "<meta name='viewport' content='initial-scale = 1.0,maximum-scale = 1.0'>";
+		console.log(scaler);
+		alert(screen.width);
+		if ($(window).width() <= 568 || screen.width < 568){
+			alert("small screen detected");
+			$("head").append(scaler);
+			console.log($("head").html());
 		}
 	</script>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
