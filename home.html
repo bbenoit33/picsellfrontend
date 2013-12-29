@@ -20,6 +20,11 @@
 	<div class="max_width_wrapper">
 		<h1><a href="/"><img src="images/picsell_logo.png" alt="picSell"/></a></h1>
 		<img src="images/menu_gray.png" class="hamburger_menu"/>
+		<script>
+			$("header").on("click", ".hamburger_menu", function(event){
+				$("#dropdown_menu").slideToggle();
+			});
+		</script>
 		<nav id="uppernav">
 			<ul>
 				<li> FAQ </li>
@@ -37,6 +42,18 @@
 	</div>
 </header>
 <body id="index" class="home">
+	<div id="dropdown_menu">
+		<nav id="dropdown_nav">
+			<ul>
+				<li> <a href="#"> HOME </a> </li>
+				<li> <a href="#"> GET STARTED </a></li>
+				<li> <a href="#"> GET STARTED </a></li>
+				<li> <a href="#"> ABOUT </a> </li>
+				<li> <a href="#"> WHAT WE'VE SOLD </a> </li>
+				<li> <a href="#"> CONTACT </a> </li>
+			</ul>
+		</nav>		
+	</div>
 	<section id="banner">
 		<h1> Sell your stuff in a snap </h1>
 		<nav id="bannernav">

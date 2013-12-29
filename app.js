@@ -1,7 +1,3 @@
-// console.log("hello?");
-
-// var recently_listed = $("#recentlyadded li.item_feature");
-// for (element in recently_listed){
-// 	console.log(element);
-// }
-// var just_sold = $("#justsold li.item_feature");
+$("header").on("click", ".hamburger_menu", function(event){
+	$("#dropdown_menu").slideToggle();
+});
