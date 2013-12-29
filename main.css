@@ -718,8 +718,14 @@ footer span{
 		font-size: 2.0em;
 	}
 
+	#customers ul{
+		margin-left: 10%;
+		width: 80%;
+		padding-left: 0;
+	}
+
 	#customers ul li{
-		width: 90%;
+		width: 100%;
 		margin-left: 0;
 		height: auto;
 	}
