@@ -563,12 +563,16 @@ footer span{
 	#bannernav{
 		top: 0;
 		position: relative;
+		width: auto;
+		left: 0;
+		margin-left: 0;
 	}
 
 	#bannernav ul{
 		position: relative;
 		line-height: 4;
 		margin: -25px 0 0 -25px;
+		padding-left: 15px;
 	}
 
 	#banner #iphone_on_side{
@@ -581,8 +585,6 @@ footer span{
 
 	#bannernav ul li{
 		width: 90%;
-		float: left;
-		left: 50%;
 		float: none;
 	}
 
