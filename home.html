@@ -8,9 +8,7 @@
 		//only scale view if view is a phone
 		var scaler = "<meta name='viewport' content='initial-scale = 1.0,maximum-scale = 1.0'>";
 		console.log(scaler);
-		alert(screen.width);
 		if ($(window).width() <= 568 || screen.width < 568){
-			alert("small screen detected");
 			$("head").append(scaler);
 			console.log($("head").html());
 		}

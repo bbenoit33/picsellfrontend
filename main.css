@@ -669,6 +669,7 @@ footer span{
 		padding-left: 0;
 		height: auto;
 		padding-bottom: 5px;
+		margin-left: 0;
 	}
 
 	#items #recentlyadded li, #items #justsold li{
