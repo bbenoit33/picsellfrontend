@@ -31,6 +31,11 @@ header{
 	height: auto;
 	box-sizing: border-box;
 }
+
+.hamburger_menu{
+	display: none;
+}
+
 header h1{
 	float: left;
 	margin-left: 130px;
@@ -503,4 +508,97 @@ footer span{
 	padding: 50px 0;
 	float: right;
 	margin-right: 75px;
+}
+
+@media all and (max-width: 568px){
+
+	header, #banner, #steps, #items, #whyus, #customers, #notifyme, footer{
+		min-width: 0;
+	}
+
+	.max_width_wrapper{
+		width: 100%;
+		max-width: 568px;
+		margin: 0 0 0 0;
+		left: 0;
+	}
+
+	header{
+		height: 87px;
+		z-index: 99;
+		width: 100%;
+	}
+
+	.hamburger_menu{
+		display: block;
+		float: right;
+		margin: 25px 7% 0 0;
+		cursor: pointer;
+	}
+
+	header h1{
+		margin: 8px 0 0 10px;
+	}
+	header #uppernav, header #lowernav{
+		display: none;
+	}
+
+	#banner{
+		z-index: -1;
+		height: 310px;
+		background-image: none;
+		background: #999;
+		position: relative;
+		height: auto;
+	}
+
+	#banner h1{
+		font-size: 2.8em;
+		width: inherit;
+		padding: 30px 10px;
+		margin: 5px 0 10px 0;
+		position: relative;
+	}
+
+	#bannernav{
+		top: 0;
+		position: relative;
+	}
+
+	#bannernav ul{
+		position: relative;
+		line-height: 4;
+		margin: -25px 0 0 -25px;
+	}
+
+	#banner #iphone_on_side{
+		display: none;
+	}
+
+	#steps_wrapper{
+		padding: 20px 10%;
+	}
+
+	#bannernav ul li{
+		width: 90%;
+		float: left;
+		left: 50%;
+		float: none;
+	}
+
+	#bannernav ul li span{
+		margin-left: 0;
+		padding: 15px 35px;
+	}
+
+	#steps h1 img{
+		width: 90%;
+		height: auto;
+	}
+
+	#steps ul li{
+		width: 90%;
+		margin-left: 10px;
+		float: none;
+	}
 }
