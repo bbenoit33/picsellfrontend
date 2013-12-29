@@ -596,9 +596,50 @@ footer span{
 		height: auto;
 	}
 
+	#steps h2{
+		width: auto;
+		padding: 0 20px;
+		margin: 0 0 0 0;
+		font-size: 1.5em;
+		padding-bottom: 40px;
+	}
+
 	#steps ul li{
 		width: 90%;
 		margin-left: 10px;
 		float: none;
 	}
+
+	#customers{
+		padding-bottom: 20px;
+	}
+
+	#customers h1{
+		padding: 80px 10px;
+		padding-bottom: 20px;
+		font-size: 2.5em;
+	}
+
+	#customers ul li{
+		width: 90%;
+		margin-left: 0;
+		height: auto;
+	}
+
+	#customers ul li.first{
+		margin-left: 0;
+	}
+
+	#customers ul li .quote_wrapper{
+		padding: 15px 20px;
+		height: 145px;
+	}
+
+	#customers ul li .quote_wrapper .arrow-down{
+		top: 145px;
+	}	
+	#customers ul li .circular_wrapper{
+		display: none;	
+	}
+
 }
