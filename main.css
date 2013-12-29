@@ -610,6 +610,55 @@ footer span{
 		float: none;
 	}
 
+	#items{
+		padding-bottom: 0;
+	}
+
+	#items h2.sold{
+		margin-top: 20px;
+	}
+
+	#items #recentlyadded, #items #justsold{
+		padding-left: 0;
+		height: auto;
+		padding-bottom: 5px;
+	}
+
+	#items #recentlyadded li, #items #justsold li{
+		display: none;
+	}
+
+	#items #recentlyadded li.first, #items #justsold li.first{
+		display: block;	
+		width: 80%;
+		margin-left: 10%;
+		padding-bottom: 40px;
+		height: auto;
+	}
+
+	#items #recentlyadded li.first img, #items #justsold li.first img{
+		width: 100%;
+		height: auto;
+	}	
+
+	#whyus{
+		padding-bottom: 20px;
+	}
+
+	#whyus h1{
+		font-size: 2.5em;
+		padding-bottom: 0;
+	}
+
+	#whyus #left_column{
+		display: none;
+	}
+
+	#whyus .column{
+		width: 85%;
+		margin-left: 7.5%;
+	}
+
 	#customers{
 		padding-bottom: 20px;
 	}
@@ -640,6 +689,44 @@ footer span{
 	}	
 	#customers ul li .circular_wrapper{
 		display: none;	
+	}
+
+	#notifyme{
+		padding-bottom: 50px;
+	}
+
+	#notifyme h1{
+		font-size: 2.0em;
+		margin: 0 0 0 0;
+		text-align: center;
+		padding: 30px 10px;
+	}
+
+	#notifyme h2.green_button{
+		margin: 0 0 0 0;
+		position: relative;
+		top: 0;
+		right: 0;
+		margin-left: calc(50% - 90px);
+	}
+
+	footer{
+		padding: 20px 0;
+	}
+
+	footer ul{
+		float: none;
+		overflow: hidden;
+		padding: 20px 5px;
+	}
+
+	footer span{
+		margin: 0 0 0 0;
+		float: none;
+		padding: 0 0;
+		width: 85%;
+		margin-left: 7.5%;
+		text-align: center;
 	}
 
 }
