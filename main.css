@@ -149,6 +149,7 @@ body{
 	list-style: none;
 	color: #fff;
 	position: absolute;
+	margin-top: 0;
 }
 
 #bannernav ul li{
@@ -158,16 +159,22 @@ body{
 	font-size: 1.33em;
 }
 
-#bannernav ul li span{
+#bannernav ul li.getstarted{
 	background: #68cae3;
-	padding:18px 30px;
+	padding:20px 0;
+	font-size: 1.428em;
+	text-align: center;
 	box-sizing: border-box;
 	width: 181px;
 	height: 60px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	margin-left: 60px;
+}
+
+#bannernav ul li.appstore{
+	margin-top: 20px;
 }
 
 #bannernav ul li img{
@@ -182,7 +189,7 @@ body{
 
 #steps h1{
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 60px;
 	color: #1795C2;
 }
 
