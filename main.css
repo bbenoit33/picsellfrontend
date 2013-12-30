@@ -196,12 +196,13 @@ body{
 
 #steps{
 	padding-bottom: 40px;
+	background-color: #62C7ED;
 }
 
 #steps h1{
 	text-align: center;
 	margin-top: 60px;
-	color: #1795C2;
+	color: #ffffff;
 }
 
 #steps h2{
@@ -211,7 +212,7 @@ body{
 	font-size: 2.0em;
 	margin-top: 30px;
 	padding-bottom: 30px;
-	color: #1795C2;
+	color: #ffffff;
 }
 
 #steps_wrapper{
@@ -233,20 +234,21 @@ body{
 
 #steps ul li h3{
 	margin-left: 2px;
-	color: #1795C2;
+	color: #ffffff;
 }
 
 #steps ul li p{
 	width: 80%;
 	margin-left: 2px;
-	color: #9097aa;
+	color: #ffffff;
 }
 
 #getstarted{
-	color: #fff;
-	background: #1795C2;
+	color: #9097AA;
+	background: #FC6E51;
 	position: relative;
 	padding-bottom: 40px;
+	padding-top: 80px;
 }
 
 #getstarted h1{
@@ -258,7 +260,7 @@ body{
 }
 
 #getstarted .arrow-down{
-	border-top: 50px solid #fff;
+	border-top: 50px solid #62C7ED;
 }
 
 #getstarted .green_button{
@@ -284,7 +286,7 @@ body{
 }
 
 #items{
-	background: #f5f7f6;
+	background: #FFFFFF;
 	position: relative;
 	overflow: hidden;
 	padding-top: 20px;
@@ -292,7 +294,7 @@ body{
 }
 
 #items .arrow-down{
-	border-top: 50px solid #1795C2;
+	border-top: 50px solid #FC6E51;
 }
 
 #items h2{
