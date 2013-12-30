@@ -146,26 +146,42 @@ body{
 #banner{
 	margin-top: 95px;
 	position: relative;
-	height: 525px;
+	height: 500px;
 	background-color: #dddddd;
 	background-image: url('images/stock_photo.jpg');
 	background-size: 100% auto;
-	background-position: 10% 80%;
+	background-position: 0 20%;
 	background-repeat: no-repeat; 
 }
 #banner h1{
 	width: 100%;
-	margin-top: 60px;
 	position: absolute;
 	font-size: 3.5em;
 	text-align: center;
 	color: #3D516A;
 	font-family: 'ProximaNova-Semibold', sans-serif;
+	box-sizing: border-box;
+	padding-top: 130px;
+	height: 500px;
+	margin-top: 0;
+	background: rgb(0, 0, 0); /* fallback color */
+	background: rgba(0, 0, 0, 0.6);	
+}
+
+#banner h1 span{
+   color: white; 
+   padding-top: 105px;
+   letter-spacing: -1px;  
+   padding: 30px; 
+   padding-bottom: 130px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
 }
 
 #bannernav{
 	position: absolute;
-	top: 150px;
+	top: 210px;
 	text-align: center;
 	box-sizing: border-box;
 	width: 600px;
