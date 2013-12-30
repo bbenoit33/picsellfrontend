@@ -186,7 +186,7 @@ body{
 }
 
 #bannernav ul li.getstarted{
-	background: #68cae3;
+	background: #FC6E51;
 	padding:20px 0;
 	font-size: 1.428em;
 	text-align: center;
@@ -264,8 +264,8 @@ body{
 }
 
 #getstarted{
-	color: #9097AA;
-	background: #FC6E51;
+	color: #DEDEDE;
+	background: #DEDEDE;
 	position: relative;
 	padding-bottom: 40px;
 	padding-top: 40px;
@@ -280,14 +280,21 @@ body{
 }
 
 #getstarted .arrow-down{
-	border-top: 50px solid #62C7ED;
+	border-top: 50px solid #DEDEDE;
 }
 
 #getstarted .green_button{
-	margin: 0 0 0 0;
-	margin-left: 570px;
-	background: #fff;
-	color: #1795C2;
+	background: #FC6E51;
+	
+	font-size: 1.428em;
+	text-align: center;
+	margin-left: 545px;
+	box-sizing: border-box;
+	width: 181px;
+	height: 60px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 .circular_wrapper{
@@ -314,7 +321,7 @@ body{
 }
 
 #items .arrow-down{
-	border-top: 50px solid #FC6E51;
+	border-top: 50px solid #DEDEDE;
 }
 
 #items h2{
