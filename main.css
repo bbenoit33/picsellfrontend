@@ -233,7 +233,7 @@ body{
 
 #steps{
 	padding-bottom: 40px;
-	background-color: #BAE7F7;
+	background-color: #CFCBC1;
 }
 
 #steps h1{
@@ -298,12 +298,12 @@ body{
 }
 
 #getstarted .arrow-down{
-	border-top: 50px solid #DEDEDE;
+	border-top: 50px solid #CFCBC1;
 }
 
 #getstarted .green_button{
-	background: #BAE7F7;
-	color: #3D516A;
+	background: #FC6E51;
+	color: #ffffff;
 	font-size: 1.428em;
 	text-align: center;
 	margin-left: 545px;
