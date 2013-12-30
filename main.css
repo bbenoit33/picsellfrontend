@@ -34,7 +34,7 @@ header{
 	top: 0;
 	left: 0;
 	z-index: 1000;
-	background: #1795C2;
+	background: #fff;
 	width: 100%;
 }
 
@@ -61,8 +61,8 @@ header nav#uppernav ul{
 	margin-top: 0;
 }
 header nav#uppernav ul li{
-	background: #fff;
-	color: #1795C2;
+	background: #1795C2;
+	color: #fff;
 	padding: 10px 20px;
 	float: left;
 	margin: 0 0 0 20px;
@@ -73,6 +73,11 @@ header nav#uppernav ul li{
 	-webkit-border-bottom-right-radius: 5px;
 	-moz-border-bottom-right-radius: 5px;
 	border-bottom-right-radius: 5px;	
+}
+
+header nav#uppernav ul li.small{
+	background: #fff;
+	color: #1795C2;
 }
 header nav#lowernav{
 	overflow: hidden;

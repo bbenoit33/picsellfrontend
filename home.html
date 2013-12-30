@@ -50,9 +50,7 @@
 	</div>
 </header>
 <script>
-	console.log("check 1");
 	$(function(){
-		console.log("check 2");
 	  $('header').data('size','big');
 	  $('header').addClass('big');
 	});
@@ -64,13 +62,15 @@
 	    {
 	        $('header').data('size','small');
 	        $('header').removeClass('big').addClass('small');
+	        $('header').css("background","#1795C2");
+	        $('header nav#uppernav ul li').addClass('small');
 	        $('header').stop().animate({
 	            height:'60px'
-	        },200);
+	        },500);
 	        $('header nav#lowernav').fadeOut(200);
 	        $('header h1 img').stop().animate({
 	        	width: '100px'
-	        }, 200);
+	        }, 500);
 	    }
 	}
 	else
@@ -79,13 +79,15 @@
 	      {
 	        $('header').data('size','big');
 	        $('header').removeClass('small').addClass('big');
+	        $('header nav#uppernav ul li').removeClass('small');
+	        $('header').css("background","#fff");
 	        $('header').stop().animate({
 	            height:'95px'
-	        },200);
+	        },500);
 	        $('header nav#lowernav').fadeIn(200);
 	       	$('header h1 img').stop().animate({
 	        	width: '180px'
-	        }, 200);
+	        }, 500);
 	      }  
 	  }
 	});
