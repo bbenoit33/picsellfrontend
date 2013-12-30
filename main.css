@@ -393,7 +393,7 @@ body{
 
 #items h2.sold{
 	margin-top: 60px;
-	color: #1795C2;
+	color: #3D516A;
 }
 
 li.inactive{
@@ -427,10 +427,16 @@ li #image-placeholder{
 }
 
 #items h2.green_button{
-	font-size: 1.5em;
-	margin: 50px 0 0 0;
-	padding: 15px auto;
-	margin-left: 570px;
+	background: #FC6E51;
+	font-size: 1.428em;
+	text-align: center;
+	box-sizing: border-box;
+	width: 181px;
+	height: 60px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 545px;
 }
 
 #whyus{
@@ -442,7 +448,7 @@ li #image-placeholder{
 }
 
 #whyus .arrow-down{
-	border-top: 50px solid #f5f7f6;
+	border-top: 50px solid #fff;
 }
 
 #whyus h1{
