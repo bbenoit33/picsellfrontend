@@ -265,7 +265,7 @@ body{
 
 #getstarted{
 	color: #DEDEDE;
-	background: #DEDEDE;
+	background: #3D516A;
 	position: relative;
 	padding-bottom: 40px;
 	padding-top: 40px;
@@ -284,8 +284,8 @@ body{
 }
 
 #getstarted .green_button{
-	background: #FC6E51;
-	
+	background: #BAE7F7;
+	color: #3D516A;
 	font-size: 1.428em;
 	text-align: center;
 	margin-left: 545px;
@@ -321,7 +321,7 @@ body{
 }
 
 #items .arrow-down{
-	border-top: 50px solid #DEDEDE;
+	border-top: 50px solid #3D516A;
 }
 
 #items h2{
