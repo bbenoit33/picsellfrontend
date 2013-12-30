@@ -62,8 +62,6 @@
 	    {
 	        $('header').data('size','small');
 	        $('header').removeClass('big').addClass('small');
-	        $('header').css("background","#1795C2");
-	        $('header nav#uppernav ul li').addClass('small');
 	        $('header').stop().animate({
 	            height:'60px'
 	        },500);
@@ -79,8 +77,6 @@
 	      {
 	        $('header').data('size','big');
 	        $('header').removeClass('small').addClass('big');
-	        $('header nav#uppernav ul li').removeClass('small');
-	        $('header').css("background","#fff");
 	        $('header').stop().animate({
 	            height:'95px'
 	        },500);
@@ -141,9 +137,8 @@
 		</div>
 	</section>
 	<section id="getstarted">
-		<div class="arrow-down"></div>
-		<!--<h1> <br>The average US household has at least $1,000 of used stuff to sell </h1>-->
-		<h2 class="green_button"> Get Started </h2>
+		<div class="max_width_wrapper">
+			<h2 class="green_button"> Get Started </h2>
 		</div>
 	</section>
 	<section id="items">
