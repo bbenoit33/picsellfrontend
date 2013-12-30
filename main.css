@@ -160,7 +160,7 @@ body{
 
 #bannernav ul li span{
 	background: #68cae3;
-	padding:15px 25px;
+	padding:18px 30px;
 	box-sizing: border-box;
 	width: 181px;
 	height: 60px;
@@ -183,6 +183,7 @@ body{
 #steps h1{
 	text-align: center;
 	margin-top: 100px;
+	color: #1795C2;
 }
 
 #steps h2{
@@ -192,6 +193,7 @@ body{
 	font-size: 2.0em;
 	margin-top: 30px;
 	padding-bottom: 30px;
+	color: #1795C2;
 }
 
 #steps_wrapper{
@@ -213,6 +215,7 @@ body{
 
 #steps ul li h3{
 	margin-left: 2px;
+	color: #1795C2;
 }
 
 #steps ul li p{
@@ -307,7 +310,8 @@ body{
 }
 
 #items h2.sold{
-	margin-top: 20px;
+	margin-top: 60px;
+	color: #1795C2;
 }
 
 li.inactive{
@@ -391,7 +395,6 @@ li #image-placeholder{
 
 #customers{
 	background: #fff;
-	background-image: url('images/tile-pattern.png');
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 40px;
@@ -414,6 +417,7 @@ li #image-placeholder{
 	font-size: 2.5em;
 	padding-top: 100px;
 	padding-bottom: 30px;
+	color: #1795C2;
 }
 
 #customers ul{
