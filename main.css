@@ -648,16 +648,20 @@ footer span{
 		margin-top: 0;
 		padding: 20px 0;
 		line-height: 1;
-		margin-left: calc(50% - 87px);
+		margin-left: calc(50% - 90px);
+	}
+
+	#bannernav ul li.appstore{
+		margin-left: 5%;
 	}
 
 	#bannernav ul li img{
 		margin-top: 0;
 	}
 
-	#steps h1 img{
-		width: 90%;
-		height: auto;
+
+	#steps h1{
+		display: none;
 	}
 
 	#steps h2{
