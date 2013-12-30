@@ -336,6 +336,7 @@ body{
 	overflow: hidden;
 	padding-top: 20px;
 	padding-bottom: 60px;
+	background: url('images/tile-pattern.png');
 }
 
 #items .arrow-down{
@@ -496,6 +497,7 @@ li #image-placeholder{
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 40px;
+	background: url('images/tile-pattern.png');
 }
 
 #customers .arrow-down{
