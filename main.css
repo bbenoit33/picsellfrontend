@@ -81,7 +81,7 @@ header nav#lowernav{
 
 header nav#lowernav ul{
 	list-style: none;
-	margin: 45px 430px 0 0;
+	margin: 45px 55px 0 0;
 }
 header nav#lowernav ul li{
 	float: right;
@@ -101,6 +101,18 @@ header nav#lowernav ul li.current{
 header a{
 	text-decoration: none;
 	color: inherit;
+}
+
+header #social_media ul{
+	list-style: none;
+	float: right;
+	margin-top: 55px;
+	margin-right: 182px;
+}
+
+header #social_media ul li{
+	float: left;
+	margin-left: 10px;
 }
 
 #dropdown_menu{
