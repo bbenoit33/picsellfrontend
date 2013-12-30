@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="js/jquery.kinetic.min.js" type="text/javascript"></script>
 	<script src="app.js"></script>
 	<link rel="stylesheet" href="main.css" type="text/css" />
 	<script>
@@ -50,6 +49,47 @@
 		</nav>
 	</div>
 </header>
+<script>
+	console.log("check 1");
+	$(function(){
+		console.log("check 2");
+	  $('header').data('size','big');
+	  $('header').addClass('big');
+	});
+
+	$(window).scroll(function(){
+	  if($(document).scrollTop() > 95)
+	{
+	    if($('header').data('size') == 'big')
+	    {
+	        $('header').data('size','small');
+	        $('header').removeClass('big').addClass('small');
+	        $('header').stop().animate({
+	            height:'60px'
+	        },200);
+	        $('header nav#lowernav').fadeOut(200);
+	        $('header h1 img').stop().animate({
+	        	width: '100px'
+	        }, 200);
+	    }
+	}
+	else
+	  {
+	    if($('header').data('size') == 'small')
+	      {
+	        $('header').data('size','big');
+	        $('header').removeClass('small').addClass('big');
+	        $('header').stop().animate({
+	            height:'95px'
+	        },200);
+	        $('header nav#lowernav').fadeIn(200);
+	       	$('header h1 img').stop().animate({
+	        	width: '180px'
+	        }, 200);
+	      }  
+	  }
+	});
+</script>
 <body id="index" class="home">
 	<div id="dropdown_menu">
 		<nav id="dropdown_nav">
@@ -102,6 +142,7 @@
 		<div class="arrow-down"></div>
 		<!--<h1> <br>The average US household has at least $1,000 of used stuff to sell </h1>-->
 		<h2 class="green_button"> Get Started </h2>
+		</div>
 	</section>
 	<section id="items">
 		<div class="arrow-down"></div>
