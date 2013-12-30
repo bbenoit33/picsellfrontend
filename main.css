@@ -459,7 +459,7 @@ li #image-placeholder{
 }
 
 #whyus .arrow-down{
-	border-top: 50px solid url('images/tile-pattern.png');
+	border-top-image: url('images/tile-pattern.png') 25px 25px round;
 }
 
 #whyus h1{
