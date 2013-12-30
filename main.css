@@ -83,6 +83,14 @@ header nav#lowernav ul{
 	list-style: none;
 	margin: 45px 55px 0 0;
 }
+
+header nav#lowernav ul.small{
+	margin: 25px 470px 0 0;
+}
+
+header nav#lowernav ul.small li{
+	padding-bottom: 17px;
+}
 header nav#lowernav ul li{
 	float: right;
 	margin-left: 20px;
