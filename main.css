@@ -644,9 +644,15 @@ footer span{
 		float: none;
 	}
 
-	#bannernav ul li span{
-		margin-left: 0;
-		padding: 15px 35px;
+	#bannernav ul li.getstarted{
+		margin-top: 0;
+		padding: 20px 0;
+		line-height: 1;
+		margin-left: calc(50% - 87px);
+	}
+
+	#bannernav ul li img{
+		margin-top: 0;
 	}
 
 	#steps h1 img{
