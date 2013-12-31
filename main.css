@@ -230,7 +230,7 @@ body{
 
 #steps{
 	padding-bottom: 40px;
-	background-color: #CFCBC1;;
+	background-color: #F6F1E5;
 }
 
 #steps h1{
@@ -448,7 +448,7 @@ li #image-placeholder{
 }
 
 #whyus{
-	background: #1795C2;
+	background: #BAE7F7;
 	position: relative;
 	overflow: hidden;
 	color: #fff;
@@ -465,6 +465,7 @@ li #image-placeholder{
 	font-size: 2.5em;
 	margin-top: 100px;
 	padding-bottom: 30px;
+	color: #3F5168;
 }
 
 #whyus .column{
@@ -481,12 +482,13 @@ li #image-placeholder{
 	font-family: 'ProximaNova-Semibold', sans-serif;
 	font-size: 1.4em;
 	margin-top: 0;
+	color: #3F5168;
 }
 
 #whyus .column p{
 	line-height: 1.5;
 	font-size: 1.1em;
-	color: #c0e9fb;
+	color: #3F5168;
 }
 
 #customers{
@@ -498,7 +500,7 @@ li #image-placeholder{
 }
 
 #customers .arrow-down{
-	border-top: 50px solid #1795C2;
+	border-top: 50px solid #BAE7F7;
 }
 
 #customers .circular_wrapper{
