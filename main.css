@@ -274,8 +274,8 @@ body{
 }
 
 #getstarted{
-	color: #DEDEDE;
-	background: #3D516A;
+	color: #ffffff;
+	background: #ffffff;
 	position: relative;
 	padding-bottom: 40px;
 	padding-top: 40px;
@@ -290,7 +290,7 @@ body{
 }
 
 #getstarted .arrow-down{
-	border-top: 50px solid #CFCBC1;
+	border-top: 50px solid #ffffff;
 }
 
 #getstarted .green_button{
@@ -332,7 +332,7 @@ body{
 }
 
 #items .arrow-down{
-	border-top: 50px solid #3D516A;
+	border-top: 50px solid #ffffff;
 }
 
 #items h2{
