@@ -27,7 +27,7 @@ header, #banner, #steps, #getstarted, #items, #whyus, #customers, #notifyme, foo
 }
 
 header{
-	color: #8f97a2;
+	color: #ffffff;
 	height: auto;
 	box-sizing: border-box;
 	position: fixed;
@@ -157,7 +157,7 @@ body{
 	padding-top: 320px;
 	font-size: 3.5em;
 	text-align: left;
-	color: #3D516A;
+	color: #ffffff;
 	font-family: 'ProximaNova-Semibold', sans-serif;	
 }
 
