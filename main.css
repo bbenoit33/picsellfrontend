@@ -154,29 +154,26 @@ body{
 	background-repeat: no-repeat; 
 }
 #banner h1{
-	width: 100%;
-	position: absolute;
+	padding-top: 130px;
 	font-size: 3.5em;
 	text-align: center;
 	color: #3D516A;
-	font-family: 'ProximaNova-Semibold', sans-serif;
-	box-sizing: border-box;
-	padding-top: 130px;
-	height: 500px;
-	margin-top: 0;
-	background: rgb(0, 0, 0); /* fallback color */
-	background: rgba(0, 0, 0, 0.6);	
+	font-family: 'ProximaNova-Semibold', sans-serif;	
 }
 
 #banner h1 span{
    color: white; 
-   padding-top: 105px;
-   letter-spacing: -1px;  
-   padding: 30px; 
+   letter-spacing: -1px; 
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
    padding-bottom: 130px;
+   padding-top: 30px;
+   padding-left: 30px;
+   padding-right:30px; 
    -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
+	-moz-border-radius: 10px;
+	width:300px;
+    height:200px;
 }
 
 #bannernav{
