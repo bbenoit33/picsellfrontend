@@ -154,9 +154,9 @@ body{
 	background-repeat: no-repeat; 
 }
 #banner h1{
-	padding-top: 130px;
+	padding-top: 380px;
 	font-size: 3.5em;
-	text-align: center;
+	text-align: left;
 	color: #3D516A;
 	font-family: 'ProximaNova-Semibold', sans-serif;	
 }
@@ -211,7 +211,7 @@ body{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	margin-left: 60px;
+	
 }
 
 #bannernav ul li.appstore{
