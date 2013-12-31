@@ -335,11 +335,12 @@ body{
 	border-top: 50px solid #ffffff;
 }
 
-#items h2{
-	font-size: 2.0em;
+#items h1{
+	color: #3d516a;
+	font-size: 2.5em;
 	clear: both;
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
