@@ -36,7 +36,7 @@ header{
 	z-index: 1000;
 	background: #fff;
 	width: 100%;
-	background: #1795C2;
+	background: #3E5169;
 }
 
 .hamburger_menu{
@@ -230,7 +230,7 @@ body{
 
 #steps{
 	padding-bottom: 40px;
-	background-color: #CFCBC1;
+	background-color: #CFCBC1;;
 }
 
 #steps h1{
@@ -333,7 +333,7 @@ body{
 	overflow: hidden;
 	padding-top: 20px;
 	padding-bottom: 60px;
-	background: url('images/tile-pattern.png');
+	background: url('images/whiteTexture.png');
 }
 
 #items .arrow-down{
@@ -494,7 +494,7 @@ li #image-placeholder{
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 40px;
-	background: url('images/tile-pattern.png');
+	background: url('images/whiteTexture.png');
 }
 
 #customers .arrow-down{
