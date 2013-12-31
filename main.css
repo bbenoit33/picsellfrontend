@@ -561,13 +561,13 @@ li #image-placeholder{
 }
 
 #notifyme{
-	background: #223442;
+	background: #ffffff;
 	position: relative;
 	overflow: hidden;
 }
 
 #notifyme h1{
-	color: #fff;
+	color: #3d516a;
 	padding: 50px 0px;
 	font-size: 2.5em;
 	margin: 0 0 0 50px;
@@ -575,7 +575,7 @@ li #image-placeholder{
 }
 
 #notifyme a, #items a{
-	color: #fff;
+	color: #3d516a;
 	text-decoration: none;
 }
 
@@ -597,7 +597,7 @@ h2.green_button{
 
 footer{
 	color: #606c7a;
-	background: #152837;
+	background: #3d516a;
 	overflow: hidden;
 }
 
