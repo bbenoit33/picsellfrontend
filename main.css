@@ -163,10 +163,6 @@ body{
 
 #banner h1 span{
    color: white; 
-   letter-spacing: -1px; 
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, .5);
-   padding-bottom: 130px;
    padding-top: 30px;
    padding-left: 30px;
    padding-right:30px; 
@@ -455,7 +451,7 @@ li #image-placeholder{
 }
 
 #whyus .arrow-down{
-	border-top-image: url('images/tile-pattern.png') 25px 25px round;
+	border-top: 50px solid #fff;
 }
 
 #whyus h1{
