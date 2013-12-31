@@ -27,7 +27,7 @@ header, #banner, #steps, #getstarted, #items, #whyus, #customers, #notifyme, foo
 }
 
 header{
-	color: #8f97a2;
+	color: #ffffff;
 	height: auto;
 	box-sizing: border-box;
 	position: fixed;
@@ -157,7 +157,7 @@ body{
 	padding-top: 320px;
 	font-size: 3.5em;
 	text-align: left;
-	color: #3D516A;
+	color: #3d516a;
 	font-family: 'ProximaNova-Semibold', sans-serif;	
 }
 
@@ -335,11 +335,12 @@ body{
 	border-top: 50px solid #ffffff;
 }
 
-#items h2{
-	font-size: 2.0em;
+#items h1{
+	color: #3d516a;
+	font-size: 2.5em;
 	clear: both;
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
@@ -562,13 +563,13 @@ li #image-placeholder{
 }
 
 #notifyme{
-	background: #223442;
+	background: #ffffff;
 	position: relative;
 	overflow: hidden;
 }
 
 #notifyme h1{
-	color: #fff;
+	color: #3d516a;
 	padding: 50px 0px;
 	font-size: 2.5em;
 	margin: 0 0 0 50px;
@@ -576,7 +577,7 @@ li #image-placeholder{
 }
 
 #notifyme a, #items a{
-	color: #fff;
+	color: #3d516a;
 	text-decoration: none;
 }
 
@@ -598,7 +599,7 @@ h2.green_button{
 
 footer{
 	color: #606c7a;
-	background: #152837;
+	background: #3d516a;
 	overflow: hidden;
 }
 
