@@ -201,7 +201,7 @@ body{
 }
 
 #bannernav ul li.getstarted{
-	background: #FC6E51;
+	background: #CC626F;
 	padding:20px 0;
 	font-size: 1.428em;
 	text-align: center;
@@ -299,7 +299,7 @@ body{
 }
 
 #getstarted .green_button{
-	background: #FC6E51;
+	background: #CC626F;
 	color: #ffffff;
 	font-size: 1.428em;
 	text-align: center;
@@ -435,7 +435,7 @@ li #image-placeholder{
 }
 
 #items h2.green_button{
-	background: #FC6E51;
+	background: #CC626F;
 	font-size: 1.428em;
 	text-align: center;
 	box-sizing: border-box;
