@@ -274,8 +274,8 @@ body{
 }
 
 #getstarted{
-	color: #DEDEDE;
-	background: #3D516A;
+	color: #ffffff;
+	background: #ffffff;
 	position: relative;
 	padding-bottom: 40px;
 	padding-top: 40px;
@@ -290,7 +290,7 @@ body{
 }
 
 #getstarted .arrow-down{
-	border-top: 50px solid #CFCBC1;
+	border-top: 50px solid #ffffff;
 }
 
 #getstarted .green_button{
@@ -328,11 +328,11 @@ body{
 	overflow: hidden;
 	padding-top: 20px;
 	padding-bottom: 60px;
-	background: url('images/whiteTexture.png');
+	background-color: #EBEFF2;
 }
 
 #items .arrow-down{
-	border-top: 50px solid #3D516A;
+	border-top: 50px solid #ffffff;
 }
 
 #items h2{
@@ -451,7 +451,7 @@ li #image-placeholder{
 }
 
 #whyus .arrow-down{
-	border-top: 50px solid #fff;
+	border-top: 50px solid #EBEFF2;
 }
 
 #whyus h1{
@@ -491,7 +491,7 @@ li #image-placeholder{
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 40px;
-	background: url('images/whiteTexture.png');
+	background-color: #EBEFF2;
 }
 
 #customers .arrow-down{
