@@ -531,7 +531,7 @@ li #image-placeholder{
 }
 
 #customers ul li .quote_wrapper{
-	background: #edeef0;
+	background: #fff;
 	color: #959cac;
 	box-sizing: border-box;
 	padding: 15px 20px;
@@ -553,7 +553,7 @@ li #image-placeholder{
 	margin-left: -10px;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-top: 10px solid #edeef0;
+	border-top: 10px solid #fff;
 }
 
 #customers ul li p {
