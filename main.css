@@ -63,7 +63,7 @@ header nav#uppernav ul{
 }
 header nav#uppernav ul li{
 	background: #fff;
-	color: #1795C2;
+	color: #3E5169;
 	padding: 10px 20px;
 	float: left;
 	margin: 0 0 0 20px;
@@ -598,21 +598,41 @@ h2.green_button{
 }
 
 footer{
-	color: #606c7a;
+	color: #fff;
 	background: #3d516a;
 	overflow: hidden;
 }
 
-footer ul{
+footer ul#social_media_icons{
 	list-style: none;
-	margin: 0 0 0 0;
-	padding: 50px 35px;
+	margin: 0 0 0 50px;
+	padding: 50px 0px;
 	float: left;
 }
 
-footer ul li{
+footer ul#social_media_icons li{
 	float: left;
 	margin-left: 20px;
+}
+
+footer ul#contact_details, footer ul#selling, footer ul#support{
+	float: left;
+	list-style: none;
+	width: 200px;
+	line-height: 2.0;
+	margin-left: 100px;
+	padding: 15px 0;
+}
+
+footer ul#contact_details{
+	width: 250px;
+	margin-left: 100px;
+}
+
+li.title{
+	font-size: 1.2em;
+	padding: 15px 0;
+	font-weight: 800;
 }
 
 footer span{
