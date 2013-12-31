@@ -111,14 +111,14 @@ header a{
 	color: inherit;
 }
 
-header #social_media ul{
+#social_media ul{
 	list-style: none;
 	float: right;
 	margin-top: 55px;
 	margin-right: 182px;
 }
 
-header #social_media ul li{
+#social_media ul li{
 	float: left;
 	margin-left: 10px;
 }
@@ -382,6 +382,7 @@ body{
 	box-shadow:         1px 3px 2px 2px #e1e2e4;	
 	text-align: left;
 	padding: 10px 10px;
+	margin-bottom: 40px;
 
 }
 #items #recentlyadded li h3, #items #justsold li h3{
@@ -603,36 +604,41 @@ footer{
 	overflow: hidden;
 }
 
-footer ul#social_media_icons{
-	list-style: none;
-	margin: 0 0 0 50px;
-	padding: 50px 0px;
+footer #social_media ul{
+	margin: 0px 0 0 50px;
+	padding: 35px 0px;
 	float: left;
+	width: 250px;
 }
 
-footer ul#social_media_icons li{
+footer #social_media ul li{
 	float: left;
-	margin-left: 20px;
+	margin-right: -5px;
 }
 
 footer ul#contact_details, footer ul#selling, footer ul#support{
 	float: left;
 	list-style: none;
-	width: 200px;
+	width: 125px;
 	line-height: 2.0;
 	margin-left: 100px;
 	padding: 15px 0;
 }
 
 footer ul#contact_details{
-	width: 250px;
+	width: 360px;
 	margin-left: 100px;
+}
+
+li.icon{
+	margin-top: 20px;
 }
 
 li.title{
 	font-size: 1.2em;
 	padding: 15px 0;
 	font-weight: 800;
+	width: 100%;
 }
 
 footer span{
