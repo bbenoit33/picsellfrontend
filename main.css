@@ -443,7 +443,7 @@ li #image-placeholder{
 }
 
 #whyus{
-	background: #EBEFF2;
+	background: #3296D4;
 	position: relative;
 	overflow: hidden;
 	color: #fff;
@@ -460,7 +460,7 @@ li #image-placeholder{
 	font-size: 2.5em;
 	margin-top: 100px;
 	padding-bottom: 30px;
-	color: #3F5168;
+	color: #ffffff;
 }
 
 #whyus .column{
@@ -477,13 +477,13 @@ li #image-placeholder{
 	font-family: 'ProximaNova-Semibold', sans-serif;
 	font-size: 1.4em;
 	margin-top: 0;
-	color: #3F5168;
+	color: #ffffff;
 }
 
 #whyus .column p{
 	line-height: 1.5;
 	font-size: 1.1em;
-	color: #3F5168;
+	color: #ffffff;
 }
 
 #customers{
@@ -495,7 +495,7 @@ li #image-placeholder{
 }
 
 #customers .arrow-down{
-	border-top: 50px solid #EBEFF2;
+	border-top: 50px solid #3296D4;
 }
 
 #customers .circular_wrapper{
