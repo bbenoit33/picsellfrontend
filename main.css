@@ -328,7 +328,7 @@ body{
 	overflow: hidden;
 	padding-top: 20px;
 	padding-bottom: 60px;
-	background: url('images/whiteTexture.png');
+	background-color: #EBEFF2;
 }
 
 #items .arrow-down{
@@ -451,7 +451,7 @@ li #image-placeholder{
 }
 
 #whyus .arrow-down{
-	border-top: 50px solid #fff;
+	border-top: 50px solid #EBEFF2;
 }
 
 #whyus h1{
@@ -491,7 +491,7 @@ li #image-placeholder{
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 40px;
-	background: url('images/whiteTexture.png');
+	background-color: #EBEFF2;
 }
 
 #customers .arrow-down{
