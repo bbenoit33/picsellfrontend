@@ -380,7 +380,7 @@ body{
 	-webkit-box-shadow: 1px 3px 2px 2px #e1e2e4;
 	box-shadow:         1px 3px 2px 2px #e1e2e4;	
 	text-align: left;
-	padding-bottom: 0;
+	padding: 10px 10px;
 
 }
 #items #recentlyadded li h3, #items #justsold li h3{
@@ -404,8 +404,8 @@ li.inactive{
 }
 
 li.active img{
-	width: 240px;
-	height: 180px;
+	width: 220px;
+	height: 160px;
 	-webkit-border-top-left-radius: 5px;
 	-moz-border-top-left-radius: 5px;
 	border-top-left-radius: 5px;
