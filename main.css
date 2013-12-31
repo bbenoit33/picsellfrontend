@@ -558,12 +558,16 @@ li.first{
 }
 
 h2.green_button{
-	background: #41c6ef;
+	background: #CC626F;
+	color: #fff;
 	font-size: 1.5em;
 	width: 140px;	
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
 }
 
 #notifyme .green_button{
@@ -571,6 +575,7 @@ h2.green_button{
 	top: 50%;
 	right: 80px;
 	margin-top: -25px;
+	width: 180px;
 }
 
 footer{
