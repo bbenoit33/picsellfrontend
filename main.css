@@ -154,31 +154,17 @@ body{
 	background-repeat: no-repeat; 
 }
 #banner h1{
-	padding-top: 320px;
+	padding-top: 50px;
 	font-size: 3.5em;
-	text-align: left;
+	text-align: center;
 	color: #3d516a;
 	font-family: 'ProximaNova-Semibold', sans-serif;	
 }
 
-#banner h1 span{
-   color: 3d516a; 
-   padding-top: 30px;
-   padding-left: 30px;
-   padding-right:30px; 
-   -webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	width:300px;
-    height:200px;
-}
-
 #bannernav{
-	position: absolute;
-	top: 400px;
 	text-align: center;
 	box-sizing: border-box;
-	width: 600px;
-	left: 30px;
+	margin-left: calc(50% - 190px);
 }
 
 #bannernav ul{
@@ -186,6 +172,7 @@ body{
 	color: #fff;
 	position: absolute;
 	margin-top: 0;
+	padding-left: 0;
 }
 
 #bannernav ul li{
@@ -197,15 +184,15 @@ body{
 
 #bannernav ul li.getstarted{
 	background: #3D516A;
-	padding:20px 0;
+	padding:19px 0;
 	font-size: 1.428em;
 	text-align: center;
 	box-sizing: border-box;
 	width: 181px;
-	height: 60px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	margin-left: 0;
 	
 }
 
@@ -301,7 +288,6 @@ body{
 	margin-left: 545px;
 	box-sizing: border-box;
 	width: 181px;
-	height: 60px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -411,7 +397,7 @@ li.first{
 	text-align: center;
 	box-sizing: border-box;
 	width: 181px;
-	height: 60px;
+	height: auto;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
