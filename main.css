@@ -633,7 +633,7 @@ footer span{
 		font-size: 16px;
 	}
 
-	header, #banner, #steps, #items, #whyus, #customers, #notifyme, footer{
+	header, #banner, #steps, #items, #getstarted, #whyus, #customers, #notifyme, footer{
 		min-width: 0;
 	}
 
@@ -648,6 +648,7 @@ footer span{
 		height: 87px;
 		z-index: 99;
 		width: 100%;
+		position: relative;
 	}
 
 	.hamburger_menu{
@@ -660,25 +661,25 @@ footer span{
 	header h1{
 		margin: 18px 0 0 10px;
 	}
-	header #uppernav, header #lowernav{
+	header #uppernav, header #lowernav, header #social_media{
 		display: none;
 	}
 
 	#dropdown_menu{
-		margin:0 0 0 0;
+		margin:-10px 0 0px 0;
 		padding: 0 0;
 		width: 100%;
 	}
 
 	#dropdown_menu a{
 		text-decoration: none;
-		color: #fff;
+		color: #3D516A;
 	}
 
 	#dropdown_menu ul{
 		list-style: none;
 		padding: 0 0;
-		background: #68cae3;
+		background: #EBEFF2;
 		margin-bottom: 0;
 	}
 
@@ -688,15 +689,17 @@ footer span{
 		border-top: 1px solid #fff;
 		font-size: 1.5em;
 		padding: 10px 0;
+		color: #3D516A;
 	}
 
 	#banner{
 		z-index: -1;
 		height: 310px;
 		background-image: none;
-		background: #999;
+		background: #fff;
 		position: relative;
 		height: auto;
+		margin-top: 0;
 	}
 
 	#banner h1{
@@ -705,6 +708,7 @@ footer span{
 		padding: 30px 10px;
 		margin: 5px 0 10px 0;
 		position: relative;
+		text-align: center;
 	}
 
 	#bannernav{
@@ -752,6 +756,10 @@ footer span{
 
 	#bannernav ul li img{
 		margin-top: 0;
+	}
+
+	#getstarted h2.green_button{
+		margin-left: calc(50% - 90px);
 	}
 
 
@@ -882,26 +890,23 @@ footer span{
 		position: relative;
 		top: 0;
 		right: 0;
-		margin-left: calc(50% - 70px);
+		margin-left: calc(50% - 90px);
 	}
 
 	footer{
 		padding: 20px 0;
 	}
 
-	footer ul{
+	footer #social_media ul, footer ul#contact_details, footer ul#selling, footer ul#support{
 		float: none;
+		width: 90%;
 		overflow: hidden;
-		padding: 20px 5px;
+		padding: 10px 5px;
+		margin-left: 20px;
 	}
 
-	footer span{
-		margin: 0 0 0 0;
-		float: none;
-		padding: 0 0;
-		width: 85%;
-		margin-left: 7.5%;
-		text-align: center;
+	footer #social_media ul{
+		margin-left: 10px;
 	}
 
 }

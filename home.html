@@ -65,7 +65,7 @@
 	});
 
 	$(window).scroll(function(){
-	  if($(document).scrollTop() > 95)
+	  if($(document).scrollTop() > 95 && ($(window).width() >= 568 && screen.width >= 568))
 	{
 	    if($('header').data('size') == 'big')
 	    {
@@ -115,7 +115,7 @@
 		</nav>		
 	</div>
 	<section id="banner">
-			<h1> <span>Sell your stuff in a snap </span></h1>
+			<h1> Sell your stuff in a snap </h1>
 			<nav id="bannernav">
 				<ul>
 					<li class="getstarted"> Get Started </li>
