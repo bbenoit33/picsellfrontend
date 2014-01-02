@@ -4,6 +4,8 @@ $(document).ready(function(){
   var slideWidth = 1180;
   var slides = $('.slide');
   var numberOfSlides = slides.length;
+  var autoscroll = true;
+  var autoscrollnum = 0;
   
   // Wrap all .slides with #slideInner div
   slides
@@ -24,21 +26,40 @@ $(document).ready(function(){
 
   // Hide left arrow control on first load
   manageControls(currentPosition);
+
+  function scrollDiv(controller){
+  // Determine new position
+  console.log(controller);
+    currentPosition = ($(controller).attr('id')=='rightControl') 
+  ? currentPosition+1 : currentPosition-1;
+
+    // Hide / show controls
+    manageControls(currentPosition);
+    // Move slideInner using margin-left
+    $('#slideInner').animate({
+      'marginLeft' : slideWidth*(-currentPosition)
+    });  	
+  }
  
   // Create event listeners for .controls clicks
   $('.control')
     .bind('click', function(){
-    // Determine new position
-      currentPosition = ($(this).attr('id')=='rightControl') 
-    ? currentPosition+1 : currentPosition-1;
-  
-      // Hide / show controls
-      manageControls(currentPosition);
-      // Move slideInner using margin-left
-      $('#slideInner').animate({
-        'marginLeft' : slideWidth*(-currentPosition)
-      });
+    	autoscroll=false;
+    	scrollDiv(this);
     });
+
+  window.setInterval(function(){
+  	if (autoscroll===true && autoscrollnum < numberOfSlides-1){
+  		autoscrollnum = autoscrollnum + 1;
+  		scrollDiv($('.control#rightControl'));
+  	}
+  	else{
+  		while(autoscrollnum > 0){
+  			autoscrollnum = autoscrollnum - 1;
+  			scrollDiv($('.control#leftControl'));
+  		} 		
+  	}
+	}, 5000);
   
   // manageControls: Hides and shows controls depending on currentPosition
   function manageControls(position){
