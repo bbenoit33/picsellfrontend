@@ -63,7 +63,7 @@ header nav#uppernav ul{
 }
 header nav#uppernav ul li{
 	background: #fff;
-	color: #1795C2;
+	color: #3E5169;
 	padding: 10px 20px;
 	float: left;
 	margin: 0 0 0 20px;
@@ -111,14 +111,14 @@ header a{
 	color: inherit;
 }
 
-header #social_media ul{
+#social_media ul{
 	list-style: none;
 	float: right;
 	margin-top: 55px;
 	margin-right: 182px;
 }
 
-header #social_media ul li{
+#social_media ul li{
 	float: left;
 	margin-left: 10px;
 }
@@ -154,31 +154,17 @@ body{
 	background-repeat: no-repeat; 
 }
 #banner h1{
-	padding-top: 320px;
+	padding-top: 50px;
 	font-size: 3.5em;
-	text-align: left;
+	text-align: center;
 	color: #3d516a;
 	font-family: 'ProximaNova-Semibold', sans-serif;	
 }
 
-#banner h1 span{
-   color: 3d516a; 
-   padding-top: 30px;
-   padding-left: 30px;
-   padding-right:30px; 
-   -webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	width:300px;
-    height:200px;
-}
-
 #bannernav{
-	position: absolute;
-	top: 400px;
 	text-align: center;
 	box-sizing: border-box;
-	width: 600px;
-	left: 30px;
+	margin-left: calc(50% - 190px);
 }
 
 #bannernav ul{
@@ -186,6 +172,7 @@ body{
 	color: #fff;
 	position: absolute;
 	margin-top: 0;
+	padding-left: 0;
 }
 
 #bannernav ul li{
@@ -197,15 +184,15 @@ body{
 
 #bannernav ul li.getstarted{
 	background: #3D516A;
-	padding:20px 0;
+	padding:19px 0;
 	font-size: 1.428em;
 	text-align: center;
 	box-sizing: border-box;
 	width: 181px;
-	height: 60px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	margin-left: 0;
 	
 }
 
@@ -301,7 +288,6 @@ body{
 	margin-left: 545px;
 	box-sizing: border-box;
 	width: 181px;
-	height: 60px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -347,7 +333,7 @@ body{
 #items #recentlyadded, #items #justsold{
 	list-style: none;
 	width: 100%;
-	margin-left: 30px;
+	margin-left: 25px;
 	padding-left: 0;
 	padding-bottom: 5px;
 	overflow: hidden;
@@ -372,27 +358,20 @@ body{
 	background: #fff;
 	color: #333;
 	text-align: center;
-	margin-left: 35px;
-	height: 250px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	-moz-box-shadow:    1px 3px 2px 2px #e1e2e4;
-	-webkit-box-shadow: 1px 3px 2px 2px #e1e2e4;
-	box-shadow:         1px 3px 2px 2px #e1e2e4;	
+	margin-left: 25px;
 	text-align: left;
-	padding-bottom: 0;
+	margin-bottom: 40px;
 
 }
 #items #recentlyadded li h3, #items #justsold li h3{
-	margin-left: 10px;
-	font-size: 1em;
+	font-size: 1.5em;
 	font-family: 'ProximaNova-Semibold', sans-serif;
+	text-align: center;
 }
 #items #recentlyadded li p, #items #justsold li p{
 	color: #9097aa;
-	margin-left: 10px;
-	font-size: 0.8em;
+	font-size: 1.2em;
+	text-align: center;
 }
 
 #items h2.sold{
@@ -405,29 +384,11 @@ li.inactive{
 }
 
 li.active img{
-	width: 240px;
-	height: 180px;
-	-webkit-border-top-left-radius: 5px;
-	-moz-border-top-left-radius: 5px;
-	border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-moz-border-top-right-radius: 5px;
-	border-top-right-radius: 5px;	
+	width: 375px;	
 }
 
-li #image-placeholder{
-	background: #cccccc;
-	color: #333;
-	width: 240px;
-	height: 180px;
-	text-align: center;
-	margin: -11px 0 0 0;
-	-webkit-border-top-left-radius: 5px;
-	-moz-border-top-left-radius: 5px;
-	border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-moz-border-top-right-radius: 5px;
-	border-top-right-radius: 5px;	
+li.first{
+	margin-left: 0;
 }
 
 #items h2.green_button{
@@ -436,11 +397,12 @@ li #image-placeholder{
 	text-align: center;
 	box-sizing: border-box;
 	width: 181px;
-	height: 60px;
+	height: auto;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	margin-left: 545px;
+	color: #fff;
 }
 
 #whyus{
@@ -582,12 +544,16 @@ li #image-placeholder{
 }
 
 h2.green_button{
-	background: #41c6ef;
+	background: #CC626F;
+	color: #fff;
 	font-size: 1.5em;
 	width: 140px;	
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
 }
 
 #notifyme .green_button{
@@ -595,24 +561,50 @@ h2.green_button{
 	top: 50%;
 	right: 80px;
 	margin-top: -25px;
+	width: 180px;
 }
 
 footer{
-	color: #606c7a;
+	color: #EBEFF2;
 	background: #3d516a;
 	overflow: hidden;
 }
 
-footer ul{
-	list-style: none;
-	margin: 0 0 0 0;
-	padding: 50px 35px;
+footer #social_media ul{
+	margin: 0px 0 0 50px;
+	padding: 20px 0px;
 	float: left;
+	width: 250px;
 }
 
-footer ul li{
+footer #social_media ul li{
 	float: left;
-	margin-left: 20px;
+	margin-right: -5px;
+}
+
+footer ul#contact_details, footer ul#selling, footer ul#support{
+	float: left;
+	list-style: none;
+	width: 125px;
+	line-height: 1.5;
+	margin-left: 100px;
+	padding: 0px 0;
+}
+
+footer ul#contact_details{
+	width: 360px;
+	margin-left: 100px;
+}
+
+li.icon{
+	margin-top: 20px;
+}
+
+li.title{
+	font-size: 1.2em;
+	padding: 10px 0;
+	font-weight: 800;
+	width: 100%;
 }
 
 footer span{
@@ -627,7 +619,7 @@ footer span{
 		font-size: 16px;
 	}
 
-	header, #banner, #steps, #items, #whyus, #customers, #notifyme, footer{
+	header, #banner, #steps, #items, #getstarted, #whyus, #customers, #notifyme, footer{
 		min-width: 0;
 	}
 
@@ -642,6 +634,7 @@ footer span{
 		height: 87px;
 		z-index: 99;
 		width: 100%;
+		position: relative;
 	}
 
 	.hamburger_menu{
@@ -654,25 +647,25 @@ footer span{
 	header h1{
 		margin: 18px 0 0 10px;
 	}
-	header #uppernav, header #lowernav{
+	header #uppernav, header #lowernav, header #social_media{
 		display: none;
 	}
 
 	#dropdown_menu{
-		margin:0 0 0 0;
+		margin:-10px 0 0px 0;
 		padding: 0 0;
 		width: 100%;
 	}
 
 	#dropdown_menu a{
 		text-decoration: none;
-		color: #fff;
+		color: #3D516A;
 	}
 
 	#dropdown_menu ul{
 		list-style: none;
 		padding: 0 0;
-		background: #68cae3;
+		background: #EBEFF2;
 		margin-bottom: 0;
 	}
 
@@ -682,15 +675,17 @@ footer span{
 		border-top: 1px solid #fff;
 		font-size: 1.5em;
 		padding: 10px 0;
+		color: #3D516A;
 	}
 
 	#banner{
 		z-index: -1;
 		height: 310px;
 		background-image: none;
-		background: #999;
+		background: #fff;
 		position: relative;
 		height: auto;
+		margin-top: 0;
 	}
 
 	#banner h1{
@@ -699,6 +694,7 @@ footer span{
 		padding: 30px 10px;
 		margin: 5px 0 10px 0;
 		position: relative;
+		text-align: center;
 	}
 
 	#bannernav{
@@ -746,6 +742,10 @@ footer span{
 
 	#bannernav ul li img{
 		margin-top: 0;
+	}
+
+	#getstarted h2.green_button{
+		margin-left: calc(50% - 90px);
 	}
 
 
@@ -876,26 +876,23 @@ footer span{
 		position: relative;
 		top: 0;
 		right: 0;
-		margin-left: calc(50% - 70px);
+		margin-left: calc(50% - 90px);
 	}
 
 	footer{
 		padding: 20px 0;
 	}
 
-	footer ul{
+	footer #social_media ul, footer ul#contact_details, footer ul#selling, footer ul#support{
 		float: none;
+		width: 90%;
 		overflow: hidden;
-		padding: 20px 5px;
+		padding: 10px 5px;
+		margin-left: 20px;
 	}
 
-	footer span{
-		margin: 0 0 0 0;
-		float: none;
-		padding: 0 0;
-		width: 85%;
-		margin-left: 7.5%;
-		text-align: center;
+	footer #social_media ul{
+		margin-left: 10px;
 	}
 
 }

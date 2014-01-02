@@ -65,7 +65,7 @@
 	});
 
 	$(window).scroll(function(){
-	  if($(document).scrollTop() > 95)
+	  if($(document).scrollTop() > 95 && ($(window).width() >= 568 && screen.width >= 568))
 	{
 	    if($('header').data('size') == 'big')
 	    {
@@ -115,7 +115,8 @@
 		</nav>		
 	</div>
 	<section id="banner">
-			<h1> <span>Sell your stuff in a snap </span></h1>
+		<div class="max_width_wrapper">
+			<h1> Sell your stuff in a snap </h1>
 			<nav id="bannernav">
 				<ul>
 					<li class="getstarted"> Get Started </li>
@@ -123,6 +124,7 @@
 				</ul>
 			</nav>
 <!-- 		<img src="images/iPhone_on_side.png" id="iphone_on_side"/> -->
+		</div>
 	</section>
 	<section id="steps">
 		<div class="max_width_wrapper">
@@ -159,28 +161,23 @@
 		<div class="max_width_wrapper">
 			<h1 class="sold"> <br>Recently Sold </h1>
 			<ul id="justsold">
-				<li class="scroll_button left"><img src="images/scroll_active.png"/></li>
+<!-- 				<li class="scroll_button left"><img src="images/scroll_active.png"/></li> -->
 				<li class='active item_feature first'>
-					<img src="images/Apple_airport_express.jpg" size="342x192"/>
+					<img src="images/h1.jpg" width="400"/>
 					<h3>Apple Airport Express</h3>
 					<p>Sold on picSell: $72</p>
 				</li>
 				<li class='active item_feature'>
-					<div id="image-placeholder"><p>342x191 placeholder</p></div>
+					<img src="images/h2.jpg" width="400"/>
 					<h3>ERGObaby Original Baby</h3>
 					<p>Sold on picSell: $85</p>
 				</li>
 				<li class='active item_feature'>
-					<img src="images/bolex.jpg" size="342x192"/>
+					<img src="images/h3.jpg" width="400"/>
 					<h3>Bolex Paillard H16 REX 3</h3>
 					<p>Sold on picSell: $1299</p>
 				</li>			
-				<li class='active item_feature'>
-					<img src="images/Apple_airport_express.jpg" size="342x192"/>
-					<h3>Apple Airport Express</h3>
-					<p>Sold on picSell: $72</p>
-				</li>				
-				<li class="scroll_button right"><img src="images/scroll_right_active.png"/></li>				
+<!-- 				<li class="scroll_button right"><img src="images/scroll_right_active.png"/></li>				 -->
 			</ul>
 			<a href="#"><h2 class="green_button"> View All </h2></a>
 		</div>
@@ -242,12 +239,34 @@
 	</section>
 	<footer>
 		<div class="max_width_wrapper">
-			<ul id="social media icons">
-				<li><a href="https://twitter.com/picsellit"><img src="images/twitter_icon.png"/></a></li>
-				<li><a href="https://www.facebook.com/picsellit"><img src="images/facebook_icon.png"/></a></li>
-				<li><img src="images/email_icon.png"/></li>
+			<nav id="social_media">
+				<ul>
+					<li class='title'> Connect </li>
+					<li class='icon'><img src="images/facebook.png" height="40" width="40"/></li>
+					<li class='icon'><img src="images/twitter.png" height="40" width="40"/></li>
+					<li class='icon'><img src="images/pinterest.png" height="40" width="40"/></li>
+					<li class='icon'><img src="images/google-plus.png" height="40" width="40"/></li>
+					<li class='icon'><img src="images/email.png" height="40" width="40"/></li>
+				</ul>
+			</nav>
+			<ul id="contact_details">
+				<li class='title'> Contact Details </li>
+				<li> <b>Address</b>: 175 Varick Street -- New York, NY 10014 </li>
+				<li> <b> Phone </b>: 212-628-8000</li>
+				<li> <b>Email</b>: sales@gopicsell.com</li>			
 			</ul>
-			<p><span> &#169; 2013 picSell. All Rights Reserved. </span></p>
+			<ul id="selling">
+				<li class='title'> Selling </li>
+				<li> Portfolio </li>
+				<li> Get Started </li>
+				<li> Guidelines </li>
+			</ul>
+			<ul id="support">
+				<li class='title'> Support </li>
+				<li> FAQs </li>
+				<li> Terms & Conditions </li>
+				<li> Privacy Policy </li>
+			</ul>
 		</div>
 	</footer>
 </body>
