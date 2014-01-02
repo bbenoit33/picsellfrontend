@@ -49,16 +49,18 @@ $(document).ready(function(){
     });
 
   window.setInterval(function(){
-  	if (autoscroll===true && autoscrollnum < numberOfSlides-1){
-  		autoscrollnum = autoscrollnum + 1;
-  		scrollDiv($('.control#rightControl'));
-  	}
-  	else{
-  		while(autoscrollnum > 0){
-  			autoscrollnum = autoscrollnum - 1;
-  			scrollDiv($('.control#leftControl'));
-  		} 		
-  	}
+  	if (autoscroll===true){
+	  	if (autoscrollnum < numberOfSlides-1){
+	  		autoscrollnum = autoscrollnum + 1;
+	  		scrollDiv($('.control#rightControl'));
+	  	}
+	  	else{
+	  		while(autoscrollnum > 0){
+	  			autoscrollnum = autoscrollnum - 1;
+	  			scrollDiv($('.control#leftControl'));
+	  		} 		
+	  	}
+	  }
 	}, 5000);
   
   // manageControls: Hides and shows controls depending on currentPosition
