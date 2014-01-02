@@ -330,30 +330,47 @@ body{
 	margin-bottom: 40px;
 }
 
-#items #recentlyadded, #items #justsold{
-	list-style: none;
-	width: 100%;
-	margin-left: 25px;
-	padding-left: 0;
-	padding-bottom: 5px;
-	overflow: hidden;
+#items #slideshow #slidesContainer {
+  margin:0 0 0 50px;
+  width:1180px;
+  height:380px;
+  overflow:hidden;
+  position:relative;
+  list-style: none;
+  padding-left: 10px;
 }
 
-#items .scroll_button{
-	margin-top: 100px;
-	cursor: pointer;
-}
-
-#items .left{
+#items #slideshow #slidesContainer li{
 	float: left;
+	background: #fff;
+	margin-left: 10px;
 }
 
-#items .right{
-	float: left;
-	margin-left: 35px;
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:1160px; 
+  height:380px;
 }
 
-#items #recentlyadded li.item_feature, #items #justsold li.item_feature{
+.control {
+  display:block;
+  width:39px;
+  height:39px;
+  text-indent:-10000px;
+  position:absolute;
+  top: 250px;
+  cursor: pointer;
+}
+#leftControl {
+  left:0;
+  background:transparent url(images/scroll_active.png) no-repeat 0 0;
+}
+#rightControl {
+  right:0;
+  background:transparent url(images/scroll_right_active.png) no-repeat 0 0;
+}
+
+#items #justsold li.item_feature{
 	float: left;
 	background: #fff;
 	color: #333;
@@ -363,12 +380,12 @@ body{
 	margin-bottom: 40px;
 
 }
-#items #recentlyadded li h3, #items #justsold li h3{
+#items #slideshow #slidesContainer li h3{
 	font-size: 1.5em;
 	font-family: 'ProximaNova-Semibold', sans-serif;
 	text-align: center;
 }
-#items #recentlyadded li p, #items #justsold li p{
+#items #slideshow #slidesContainer li p{
 	color: #9097aa;
 	font-size: 1.2em;
 	text-align: center;
