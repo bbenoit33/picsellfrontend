@@ -588,15 +588,16 @@ footer{
 }
 
 footer #social_media ul{
-	margin: 0px 0 0 50px;
-	padding: 20px 0px;
+	margin: 5px 0 0 50px;
+	padding: 0px 0px;
 	float: left;
 	width: 250px;
 }
 
 footer #social_media ul li{
 	float: left;
-	margin-right: -5px;
+	margin-right: 0px;
+	margin-top: 0;
 }
 
 footer ul#contact_details, footer ul#selling, footer ul#support{
@@ -606,6 +607,7 @@ footer ul#contact_details, footer ul#selling, footer ul#support{
 	line-height: 1.5;
 	margin-left: 100px;
 	padding: 0px 0;
+	margin-bottom: 5px;
 }
 
 footer ul#contact_details{
@@ -657,7 +659,7 @@ footer span{
 	.hamburger_menu{
 		display: block;
 		float: right;
-		margin: 25px 7% 0 0;
+		margin: 36px 7% 0 0;
 		cursor: pointer;
 	}
 
