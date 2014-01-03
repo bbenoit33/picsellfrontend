@@ -17,7 +17,11 @@ $(document).ready(function(){
   });
   
   // Set #slideInner width equal to total width of all slides
-  $('#slideInner').css('width', slideWidth * numberOfSlides);
+	$(window).bind("load", function() {
+		slideWidth = $(".max_width_wrapper").width();
+	  $('#slideInner').css('width', slideWidth * numberOfSlides);
+	  $('.slide').css('width', slideWidth);
+	});  
   
   // Insert left and right arrow controls in the DOM
   $('#slideshow')
