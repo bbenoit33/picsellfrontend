@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	console.log("document ready")
   var currentPosition = 0;
-  var slideWidth = 1180;
+  var slideWidth = $(".max_width_wrapper").width();
   var slides = $('.slide');
   var numberOfSlides = slides.length;
   var autoscroll = true;

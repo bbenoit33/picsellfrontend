@@ -706,7 +706,8 @@ footer span{
 	}
 
 	#banner h1{
-		font-size: 2.8em;
+		font-size: 2.4em;
+		box-sizing: border-box
 		width: inherit;
 		padding: 30px 10px;
 		margin: 5px 0 10px 0;
@@ -792,6 +793,12 @@ footer span{
 		margin-top: 20px;
 	}
 
+	#items #slideshow #slidesContainer{
+		width: 80%;
+		margin-left: 10%;
+		padding-left: 0;
+	}
+
 	#items #recentlyadded, #items #justsold{
 		padding-left: 0;
 		height: auto;
@@ -799,22 +806,39 @@ footer span{
 		margin-left: 0;
 	}
 
-	#items #recentlyadded li, #items #justsold li{
+	#items #slideshow #slidesContainer .slide{
+		width: 100%;
+	}
+
+	#items #slideshow #slidesContainer li{
 		display: none;
 	}
 
-	#items #recentlyadded li.first, #items #justsold li.first{
+	#items #slideshow #slidesContainer li.first{
 		display: block;	
 		width: 80%;
 		margin-left: 10%;
 		padding-bottom: 40px;
 		height: auto;
+		margin: 0 0 0 0;
 	}
 
-	#items #recentlyadded li.first img, #items #justsold li.first img{
+	#items #slideshow #slidesContainer li.first img{
 		width: 100%;
 		height: auto;
-	}	
+	}
+
+	.control{
+		top: 500px;
+	}
+
+	.control#rightControl{
+		right: 33%;
+	}
+
+	.control#leftControl{
+		left: 33%;
+	}
 
 	#whyus{
 		padding-bottom: 20px;
